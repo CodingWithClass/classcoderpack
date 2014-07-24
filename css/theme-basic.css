@@ -1,0 +1,171 @@
+/*
+Copyright (c) 2014, Zebulon McCorkle
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+
+/*
+$primary-a: #C5CAE9;
+$primary-b: #3F51B5;
+$primary-c: #303F9F;
+$accent-a: #FF4081;
+$accent-b: #FF80AB;
+$accent-c: #F50057;
+*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 70px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #303030;
+	font-weight: 300;
+}
+
+a {
+	color: #00CED1;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.gray {
+	color: rgba(0, 0, 0, .54);
+}
+
+.navbar {
+	background-color: #f0f0f0;
+	color: #000000;
+	font-weight: 300;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	left: 0px;
+	right: 0px;
+	height: 65px;
+	z-index: 512
+}
+
+.navbar a {
+	color: #000000;
+	font-weight: 400;
+}
+
+.navbar button {
+	font-weight: 400;
+}
+
+.navbar li {
+	list-style-type: none;
+	display: inline;
+	position: relative;
+	top: 19px;
+	padding-right: 30px;
+	font-size: 13pt;
+}
+
+.navbar ul {
+	display: inline;
+	position: relative;
+	left: -10px;
+}
+
+.btn {
+	border: 1px solid #F0F0F0;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #303030;
+	background-color: #F0F0F0;
+	box-shadow: 1px 1px 2px 0px black;
+	font-size: 14px;
+	text-transform: uppercase;
+	-webkit-appearance: none;
+	cursor: pointer;
+}
+
+.btn:active {
+	position: relative;
+	top: 1px;
+	box-shadow: 0px 0px 2px 0px black;
+}
+
+.btn:hover {
+	text-decoration: none;
+}
+
+.btn.gray {
+	color: rgba(0, 0, 0, .54);
+	background-color: white;
+	border: 1px solid white;
+}
+
+div.dialog {
+	position: fixed;
+	width: 40%;
+	left: 30%;
+	right: 30%;
+	top: 20%;
+	bottom: auto;
+	box-shadow: 0px 0px 40px 1px black;
+	padding: 24px;
+	padding-top: 16px;
+	z-index: 100;
+	background-color: white;
+}
+
+div.dialog p {
+	color: #303030;
+	font-weight: 300;
+	padding-top: 8px;
+	padding-bottom: 64px;
+}
+
+div.dialog h1 {
+	color: #303030;
+	font-size: 19pt;
+}
+
+div.dialog div.buttons {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	margin-bottom: 32px;
+	margin-right: 48px;
+	text-align: right;
+	float: right;
+}
+
+div.dialog div.buttons a {
+	padding-left: 16px;
+	box-shadow: 0px 0px 4px 0px black;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+div.dialog div.buttons a:hover {
+	text-decoration: none;
+}
+
+hr {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 1px;
+}
