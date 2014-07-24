@@ -151,9 +151,37 @@ div.dialog div.buttons a:hover {
 	text-decoration: none;
 }
 
-hr {
-	position: absolute;
-	left: 0;
-	right: 0;
+p.hr {
 	height: 1px;
+	width: 100%;
+	border-top: 1px solid #eee;
+}
+
+small {
+	font-weight: 300;
+}
+
+code {
+	padding: .1em;
+	border-radius: .3em;
+	background: #f5f2f0;
+	color: black;
+	text-shadow: 0 1px white;
+	font-family: Consolas, Monaco, 'Andale Mono', monospace;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+.light {
+	font-weight: 300;
 }
